@@ -5,7 +5,8 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Set;
-
+//Ho scritto malamente il campo del mappedBy.. ho scritto doctors mentre nella PatientEntity ho il campo denominato con
+//doctor
 @Getter
 @Setter
 @Entity

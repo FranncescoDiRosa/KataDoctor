@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// Ho invertito le annotation @PutMapping e @PostMapping nei relativi metodi
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/doctor")

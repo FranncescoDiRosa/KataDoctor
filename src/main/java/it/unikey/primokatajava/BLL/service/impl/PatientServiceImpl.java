@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor //da togliere appena finito questo porcodio di service
+//Ho tolto il requiredArgsConstructor
 public class PatientServiceImpl implements CrudService<PatientDTO> {
 
     private final PatientRepository patientRepository;

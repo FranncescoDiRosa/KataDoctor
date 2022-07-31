@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//Ho invertito il metodo nel DoctorMapper..
 @Service
 @RequiredArgsConstructor
 public class DoctorServiceImpl implements CrudService<DoctorDTO> {

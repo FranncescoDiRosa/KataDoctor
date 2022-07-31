@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+// ho messo @RequestMapping invece che @RequestBody nel metodo put
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/patient")
